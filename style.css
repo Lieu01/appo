@@ -1,38 +1,63 @@
+/* Global Styles */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    padding: 0;
+    background-color: #a3c8f7; /* Light blue - calming color for apology */
+    color: #333;
+    text-align: center;
 }
 
+/* Container for the apology content */
 .container {
-    text-align: center;
-    background: white;
-    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
 }
 
+/* Heading */
 h1 {
-    color: #ff6f61;
+    font-size: 32px;
+    color: #5f78a4; /* Slightly darker blue */
+    margin-bottom: 20px;
 }
 
+/* Paragraph with the apology message */
 p {
-    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
 }
 
-audio {
+/* Button styles */
+button {
+    background-color: #ff8c8c; /* Soft pink - calm and sincere */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
     margin-top: 20px;
-}
-.video-container {
-    margin-top: 20px;
-    text-align: center;
 }
 
-iframe {
-    max-width: 100%;
-    height: auto;
+button:hover {
+    background-color: #ff6464; /* Darker pink on hover */
+}
+
+/* Cat faces background pattern */
+body {
+    background: url('https://i.imgur.com/O4zUQ3P.png') repeat;
+    background-size: 100px 100px; /* Small, cute cat faces */
+    background-position: center center;
+}
+
+/* Message Area Style */
+#message {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #6e7582;
 }
